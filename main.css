@@ -465,6 +465,12 @@ footer a:hover {
     }
 }
 
+@media screen and (max-width:965px){
+    #search_query {
+        width:80%;
+    }
+}
+
 @media screen and (max-width:800px){
     aside {
         display:none;
@@ -476,9 +482,6 @@ footer a:hover {
         margin-left:0px;
     }
 
-    #search_query {
-        width:80%;
-    }
 }
 
 @media screen and (max-width:600px){
