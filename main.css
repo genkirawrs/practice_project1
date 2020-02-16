@@ -126,8 +126,7 @@ header .center {
     font-size:10px;
     color:#333333;
     line-height:9px;
-    display:inline-block;
-   
+    display:inline-block; 
 }
 
 .account-icon {
@@ -442,4 +441,56 @@ footer a, footer a:visited, footer a:link {
 
 footer a:hover {
     color:#000000;
+}
+
+.search-abbreviated {
+    display:none;
+}
+
+.search-abbreviated img {
+    width:25px;
+    height:25px;
+}
+
+@media screen and (max-width:1024px){
+    nav {
+        display:none;
+    }
+    main {
+        margin-left:0px;
+        width:67%;
+    }
+    aside {
+        width:30%;
+    }
+}
+
+@media screen and (max-width:800px){
+    aside {
+        display:none;
+    }
+
+    main {
+        width:99%;
+        display:inline-block;
+        margin-left:0px;
+    }
+
+    #search_query {
+        width:80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .search-form {
+        display:none;
+    }
+    .search-abbreviated {
+        display:inline-block;
+        width:25px;
+        height:25px;
+    }
+    .apps {
+        display:none; 
+    }
 }
